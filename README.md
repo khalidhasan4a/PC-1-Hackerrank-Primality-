@@ -1,6 +1,8 @@
+ID : IT24013
+
+
 # HackerRank Java Solutions - PC#1 ICT 21 Batch
 
-Ei repository te duita Java problem er solution ache:
 
 1. Prime Checker
 2. Java Primality Test
@@ -97,20 +99,16 @@ Input:      Output:
 
 ### Screenshots
 
-![Prime Checker - Leaderboard](screenshots/prime-checker-leaderboard.png)
+![Prime Checker - Leaderboard](Screenshot/Prime%20Checker.png)
 
-![Prime Checker - All test cases passed](screenshots/prime-checker-result.png)
+![Prime Checker - All test cases passed](Screenshot/Screenshot%202026-10-31%20125529.png)
 
 ---
 
 ## 2. Java Primality Test
 
 ### Problem
-Ekta boro integer `n` deya hobe. Java `BigInteger` class er `isProbablePrime` method diye bolte hobe number ta `prime` na `not prime`.
 
-### Approach
-- Input ke `String` hishebe pore `BigInteger` e convert kora hoyeche.
-- `isProbablePrime(100)` diye primality check kora hoyeche. Boro number er jonno o eta fast kaj kore.
 
 ### Code
 
@@ -150,19 +148,6 @@ Output: prime
 
 ### Screenshots
 
-![Java Primality Test - Leaderboard](screenshots/java-primality-leaderboard.png)
+![Java Primality Test - Leaderboard](Screenshot/Java%20Primality%20Test.png)
 
-![Java Primality Test - All test cases passed](screenshots/java-primality-result.png)
-
----
-
-## Screenshots folder
-
-Screenshot gulo `screenshots/` folder e ei naame rakhte hobe:
-
-| File | Kon screenshot |
-|------|----------------|
-| `prime-checker-leaderboard.png` | Prime Checker leaderboard |
-| `prime-checker-result.png` | Prime Checker Congratulations (Test case 0-4) |
-| `java-primality-leaderboard.png` | Java Primality Test leaderboard |
-| `java-primality-result.png` | Java Primality Test Congratulations (Test case 0-6) |
+![Java Primality Test - All test cases passed](Screenshot/Screenshot%202026-10-31%20125934.png)
