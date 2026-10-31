@@ -1,8 +1,6 @@
-ID : IT24013
-
-
 # HackerRank Java Solutions - PC#1 ICT 21 Batch
 
+This repository contains solutions to two Java problems from HackerRank:
 
 1. Prime Checker
 2. Java Primality Test
@@ -12,13 +10,13 @@ ID : IT24013
 ## 1. Prime Checker
 
 ### Problem
-`Prime` naame ekta class banate hobe, jar moddhe shudhu ekta method `checkPrime` thakbe. Method ta one ba tar beshi integer argument nibe ebong shudhu prime number gulo print korbe. Method overloading use kora jabe na. `BufferedReader br=new BufferedReader(new InputStreamReader(in));` line e compile error ashbe, seta fix korte hobe.
+Create a class `Prime` with a single method `checkPrime`. The method takes one or more integer arguments and prints only the prime numbers among them. Method overloading is not allowed. The statement `BufferedReader br=new BufferedReader(new InputStreamReader(in));` causes a compile error that has to be fixed.
 
 ### Approach
-- Overloading charai sob dhoroner call handle korar jonno **varargs** (`int... nums`) use kora hoyeche.
-- `in` er compile error fix korte file er sobar upore `import static java.lang.System.*;` deya hoyeche.
-- Prime check korte `2` theke `sqrt(n)` porjonto loop chalano hoyeche.
-- Prime na thakle blank line print hoy.
+- A **varargs** parameter (`int... nums`) lets one method handle calls with any number of arguments, so no overloading is needed.
+- The compile error on `in` is fixed by adding `import static java.lang.System.*;` at the very top of the file.
+- Primality is checked by trial division from `2` up to `sqrt(n)`.
+- If there are no prime numbers, a blank line is printed.
 
 ### Code
 
@@ -108,7 +106,11 @@ Input:      Output:
 ## 2. Java Primality Test
 
 ### Problem
+Given a large integer `n`, use the Java `BigInteger` class's `isProbablePrime` method to determine whether it is `prime` or `not prime`.
 
+### Approach
+- The input line is read as a `String` and converted to a `BigInteger`.
+- `isProbablePrime(100)` performs the primality test. It works efficiently even for very large numbers.
 
 ### Code
 
